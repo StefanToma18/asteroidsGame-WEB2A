@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+6<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -89,6 +89,13 @@
             90%{color: DodgerBlue;}
             100%{color: orange;}
         }
+        p {
+            font-size: 40px;
+            margin: 0;
+        }
+        .spacebar {
+            height: 50px;
+        }git
     </style>
 </head>
 <body>
@@ -104,7 +111,11 @@
     You Lose!
 </div>
 
-
+<p>Instructions</p>
+<p>Go forward = ^</p>
+<p>Turn right = ></p>
+<p>Turn left = <</p>
+<p>Shoot = <img class="spacebar" src="../../Desktop/Asteroids/spacebar.png" alt="spacebar"></p>
 <canvas id="gameCanvas" width="700" height="500"></canvas>
 <script>
     const FPS = 30; // frames per second
